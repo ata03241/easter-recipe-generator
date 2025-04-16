@@ -56,7 +56,7 @@ function RecipeGenerator() {
                         <p><strong>Instructions:</strong></p>
                         <ol className="instructions-list">
                             {recipe.instructions.split('\n').map((step, index) => (
-                                <li key={index}>{step.trim()}</li>
+                                <li key={index}>{step}</li>
                             ))}
                         </ol>
                     </div>
